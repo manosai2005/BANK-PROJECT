@@ -26,7 +26,7 @@ void withdraw(){
 	wtd=n1;
 	if(wtd<balance){
 	balance-=wtd;
-	printf("Balance=%d.2f\n",balance);
+	printf("Balance=%.2f\n",balance);
 	}else{
 		printf("Insufficent balance :\n");
 	}
